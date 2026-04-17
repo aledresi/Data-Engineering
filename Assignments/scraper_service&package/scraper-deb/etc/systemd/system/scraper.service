@@ -1,0 +1,12 @@
+[Unit]
+Discription=news scraping
+After=network.target
+
+[Service]
+User=edresi
+WorkingDirectory=/scraper-deb/scraper_project
+ExecStart=/sraper-deb/scraper_project/venv/bin/python main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
