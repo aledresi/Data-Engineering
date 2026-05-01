@@ -48,10 +48,10 @@ outputs/
 *.csv
 *.json
 *.parquet
-*.sql
+# *.sql
 *.db
-*.sqlite
-*.sqlite3
+# *.sqlite
+# *.sqlite3
 
 # Logs
 *.log
